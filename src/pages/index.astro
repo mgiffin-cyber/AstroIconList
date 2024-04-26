@@ -1,0 +1,127 @@
+---
+import {Icon} from 'astro-icon/components';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro Icons</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>Astro Icons</h1>
+			<hr />
+			<div class="icon-container">
+				<a href="https://chs.chusd.org/">
+				<Icon name="career" width={100} height={100} />
+				</a>
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus velit expedita, modi enim reprehenderit dicta suscipit obcaecati voluptas excepturi officiis corporis doloribus. Sequi molestias repudiandae delectus deserunt. Accusantium voluptate sed, molestias sint consectetur perspiciatis ab illum illo enim laborum aspernatur facilis placeat amet sunt consequatur qui totam commodi fugit cupiditate adipisci! Nobis earum veniam eaque? Voluptates adipisci ipsam ab iusto ipsa. Voluptatum laborum temporibus, dicta molestiae ipsum debitis. Quis doloribus laborum temporibus commodi, quas, eum velit, accusamus nemo ipsum dolorum similique. Fugit, soluta officiis! Maxime perspiciatis quos quasi assumenda itaque ipsum error esse neque laborum. Quibusdam consequuntur doloribus perspiciatis quos.
+				</p>
+			</div>
+			<div class="icon-container">
+				<a href="https://google.com/">
+				<Icon name="design" width={100} height={100} />
+			</a>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero quam deserunt? Perspiciatis, necessitatibus. Qui ullam ratione ipsam officiis cupiditate quibusdam eum, illum quas. Voluptatum eos cum hic asperiores soluta sed, numquam ea maiores nemo eum consequuntur expedita eveniet beatae ipsum unde magnam rerum excepturi similique itaque sit quibusdam? Tempore excepturi aperiam tempora. Corrupti in sed sit asperiores aut magni quisquam consequatur quam? Sint asperiores, hic perferendis ea neque minus velit magni quia ex illum sed at iste nemo molestias, consequatur natus officiis minima tempore pariatur? Velit, placeat nesciunt soluta, provident molestiae distinctio nobis aliquam illo cumque eveniet dolore suscipit?
+			</p>
+			</div>
+			<div class="icon-container">
+				<a href="https://yahoo.com/">
+				<Icon name="programming" width={100} height={100} />
+			</a>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veritatis, quidem facilis voluptas quasi corrupti vitae laboriosam tempora inventore sed nesciunt sunt accusamus unde voluptatum doloribus voluptates, quam quae non error quod quas dignissimos eius minima. Neque nobis quo saepe incidunt tempora cum voluptatem repudiandae cupiditate. Illum iusto laudantium iste veritatis harum vel dolorum tenetur officiis quas eveniet obcaecati quidem, commodi sed ab molestias nihil voluptas omnis quae quam nam modi perferendis. Perspiciatis similique corporis ea et dolore eveniet laudantium optio, tenetur, deleniti accusantium fugit nihil quia culpa, voluptatem sint quos doloremque incidunt accusamus quidem fuga! Laudantium earum autem atque?
+			</p>
+		</div>
+			<div class="icon-container">
+				<a href="https://yahoo.com/">
+				<Icon name="resume" width={100} height={100} />
+			</a>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veritatis, quidem facilis voluptas quasi corrupti vitae laboriosam tempora inventore sed nesciunt sunt accusamus unde voluptatum doloribus voluptates, quam quae non error quod quas dignissimos eius minima. Neque nobis quo saepe incidunt tempora cum voluptatem repudiandae cupiditate. Illum iusto laudantium iste veritatis harum vel dolorum tenetur officiis quas eveniet obcaecati quidem, commodi sed ab molestias nihil voluptas omnis quae quam nam modi perferendis. Perspiciatis similique corporis ea et dolore eveniet laudantium optio, tenetur, deleniti accusantium fugit nihil quia culpa, voluptatem sint quos doloremque incidunt accusamus quidem fuga! Laudantium earum autem atque?
+			</p>
+		</div>
+			<div class="icon-container">
+				<a href="https://yahoo.com/">
+				<Icon name="certificate" width={100} height={100} />
+			</a>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veritatis, quidem facilis voluptas quasi corrupti vitae laboriosam tempora inventore sed nesciunt sunt accusamus unde voluptatum doloribus voluptates, quam quae non error quod quas dignissimos eius minima. Neque nobis quo saepe incidunt tempora cum voluptatem repudiandae cupiditate. Illum iusto laudantium iste veritatis harum vel dolorum tenetur officiis quas eveniet obcaecati quidem, commodi sed ab molestias nihil voluptas omnis quae quam nam modi perferendis. Perspiciatis similique corporis ea et dolore eveniet laudantium optio, tenetur, deleniti accusantium fugit nihil quia culpa, voluptatem sint quos doloremque incidunt accusamus quidem fuga! Laudantium earum autem atque?
+			</p>
+		</div>
+		</div>
+	</body>
+</html>
+<style>
+	#wrapper{
+		max-width: 1200px;
+		margin: auto;
+	}
+	h1{
+		text-align: center;
+	}
+	.icon-container{
+		background-color: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: top;
+		line-height: 1.7;
+		gap: 2rem;
+	}
+	[data-icon="career"]{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+	[data-icon="career"]:hover{
+		transform: rotate(26deg);
+	}
+	[data-icon="design"]{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+	[data-icon="design"]:hover{
+		transform: rotate(26deg);
+	}
+	[data-icon="programming"]{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+	[data-icon="programming"]:hover{
+		transform: rotate(26deg);
+	}
+	[data-icon="resume"]{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+	[data-icon="resume"]:hover{
+		transform: rotate(26deg);
+	}
+	[data-icon="certificate"]{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+	[data-icon="certificate"]:hover{
+		transform: rotate(26deg);
+	}
+</style>
